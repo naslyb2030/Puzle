@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Talento Coex Nasly Bermudez">
+    <meta name="description" content="Diseño web con COEX">
+    <meta name="keywords" content="Aprende lógica, html, css, javascript, BD, vue.js, laravel">
+    <!-- Importar css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Cambiar icono -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./javascript.png">
+    <title>Puzle</title>
+</head>
+<body>
+    <header>
+        <h2>Ejercicio de Puzle</h2>
+    </header>
+    <main >
+        <section>
+            <!-- Asignacion de una imagen a cada celda de la tabla -->
+    <table class="puzle">
+        <tr>
+            <td><img id="img_0" src="./puzle/i1.jpg" alt="" onclick="seleccionar(0)"></td>
+            <td><img id="img_1" src="./puzle/i2.jpg" alt="" onclick="seleccionar(1)"></td>
+            <td><img id="img_2" src="./puzle/i3.jpg" alt="" onclick="seleccionar(2)"></td>
+        </tr>
+        <tr>
+            <td><img id="img_3" src="./puzle/i4.jpg" alt="" onclick="seleccionar(3)"></td>
+            <td><img id="img_4" src="./puzle/i5.jpg" alt="" onclick="seleccionar(4)"></td>
+            <td><img id="img_5" src="./puzle/i6.jpg" alt="" onclick="seleccionar(5)"></td>
+        </tr>
+        <tr>
+            <td><img id="img_6" src="./puzle/i7.jpg" alt="" onclick="seleccionar(6)"></td>
+            <td><img id="img_7" src="./puzle/i8.jpg" alt="" onclick="seleccionar(7)"></td>
+            <td><img id="img_8" src="./puzle/i9.jpg" alt="" onclick="seleccionar(8)"></td>
+        </tr>
+    </table>
+</section>
+<section>
+    <!-- Inserción de boton para comprobar el puzle -->
+    <input id="comprobar" type="button" value="Comprobar Puzle">
+</section>
+    </main>
+    <!-- Pie de pagina -->
+    <footer>
+        Coded by © Naslyb86
+        Talento COEX
+    </footer>
+<script src="./main.js"></script>
+</body>
+</html>
